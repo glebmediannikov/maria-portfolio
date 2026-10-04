@@ -1,9 +1,9 @@
-# Mariia Mediannikova Portfolio — v1
+# Maria Mediannikova Portfolio — v1
 
 Static multi-page website ready for GitHub Pages.
 
 Included real materials:
-- Mariia portrait
+- Maria portrait
 - Current resume PDF
 - Financial Literacy Club schedule
 - Financial Literacy Club recruitment flyer
