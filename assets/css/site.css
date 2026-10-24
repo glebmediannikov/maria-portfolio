@@ -23,8 +23,20 @@
 .certificate-copy .certificate-date{font-size:12px;font-weight:800;color:var(--ink);margin-bottom:12px}
 .certificate-link{display:inline-flex;align-items:center;gap:7px;margin-top:auto;padding-top:6px;color:var(--teal2);font-size:13px;font-weight:900}
 .certificate-link:hover{color:var(--navy)}
+.association-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;gap:20px;margin-top:26px}
+.association-heading{display:flex;align-items:center;gap:16px;margin-bottom:14px}
+.association-heading h3{flex:1;margin:0}
+.association-heading h3 a{color:var(--ink)}
+.association-heading h3 a:hover{color:var(--teal2)}
+.association-logo{display:grid;flex:0 0 100px;width:100px;height:68px;place-items:center;padding:7px;background:#fff;border:1px solid var(--line);border-radius:12px}
+.association-logo img{width:100%;height:100%;object-fit:contain}
+.association-card .association-status{display:inline-block;margin:0 0 8px;padding:4px 10px;border-radius:999px;background:var(--aqua);color:var(--teal2);font-size:11px;font-weight:800}
+.association-card .certificate-date{margin-bottom:8px}
+.association-card .association-id{font-size:12px;font-weight:800;color:var(--ink)}
+
 @media(max-width:900px){.certificate-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:600px){.certificate-section+.certificate-section{margin-top:50px}.certificate-grid{grid-template-columns:1fr}.certificate-preview{height:210px}}
+
+@media(max-width:600px){.certificate-section+.certificate-section{margin-top:50px}.certificate-grid,.association-grid{grid-template-columns:1fr}.certificate-preview{height:210px}}
 
 .research-badge-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch;gap:20px;margin-top:26px}
 .research-badge-card{min-width:0;overflow:visible}
