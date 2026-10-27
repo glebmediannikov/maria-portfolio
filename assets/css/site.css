@@ -60,6 +60,15 @@
 @media(max-width:900px){.career-badge-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.career-badge-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:380px){.career-badge-grid{grid-template-columns:1fr}}
+.ptk-edge-description{margin:10px 0 0;color:var(--muted);font-size:15px}
+.ptk-edge-group+.ptk-edge-group{margin-top:24px}
+.ptk-edge-group-heading{margin:0;font-size:17px;line-height:1.35}
+.ptk-edge-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));align-items:stretch;gap:14px;margin-top:12px}
+.ptk-edge-grid .research-badge-preview{height:150px;padding:4px}
+.ptk-edge-grid .research-badge-preview img{width:140px;height:140px}
+.ptk-edge-grid .research-badge-card .certificate-copy{height:auto;min-height:56px;padding:8px}
+.ptk-edge-grid .research-badge-card .certificate-copy h3{font-size:14px;line-height:1.3}
+@media(max-width:900px){.ptk-edge-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 .competition-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch;gap:20px;margin-top:26px}
 .competition-card{display:flex;flex-direction:column;overflow:hidden;padding:0}
