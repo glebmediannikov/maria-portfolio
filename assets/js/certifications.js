@@ -4,6 +4,7 @@
     const previousButton = card.querySelector('[data-badge-prev]');
     const nextButton = card.querySelector('[data-badge-next]');
     const count = card.querySelector('[data-badge-count]');
+    const groupTitle = card.querySelector('[data-badge-group-title]');
 
     if (slides.length < 2 || !previousButton || !nextButton || !count) return;
 
@@ -14,6 +15,8 @@
         slide.hidden = index !== activeIndex;
       });
       count.textContent = `${activeIndex + 1} / ${slides.length}`;
+      const group = slides[activeIndex].dataset.badgeGroup;
+      if (groupTitle && group) groupTitle.textContent = group;
     };
 
     const move = step => {
