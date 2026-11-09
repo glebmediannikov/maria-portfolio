@@ -43,7 +43,7 @@ if (siteNavigation) {
     if (event.key === 'Escape') closeNavigation();
   });
 
-  window.matchMedia('(min-width: 901px)').addEventListener('change', event => {
+  window.matchMedia('(min-width: 1121px)').addEventListener('change', event => {
     if (event.matches) closeNavigation();
   });
 }
