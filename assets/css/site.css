@@ -60,6 +60,17 @@
 .certificate-actions{display:grid;gap:4px;margin-top:auto}
 .certificate-actions .certificate-link{margin-top:0}
 .certificate-link:hover{color:var(--navy)}
+.ibm-certifications-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;gap:20px;margin-top:26px}
+.ibm-badges-panel{min-width:0}
+.ibm-badges-panel h3{font-size:17px;line-height:1.35;margin:0 0 16px}
+.ibm-badges-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.ibm-badge{display:flex;flex-direction:column;align-items:center;min-width:0;padding:14px;background:var(--bg);border:1px solid var(--line);border-radius:14px;text-align:center}
+.ibm-badge img{width:100px;height:100px;object-fit:contain}
+.ibm-badge h4{margin:10px 0 6px;font-size:13px;line-height:1.35}
+.ibm-badge p{margin:0 0 8px;font-size:12px}
+.ibm-badge .certificate-link{justify-content:center}
+@media(max-width:900px){.ibm-certifications-grid{grid-template-columns:1fr}}
+@media(max-width:400px){.ibm-badges-grid{grid-template-columns:1fr}}
 .association-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;gap:20px;margin-top:26px}
 .association-heading{display:flex;align-items:center;gap:16px;margin-bottom:14px}
 .association-heading h3{flex:1;margin:0}
